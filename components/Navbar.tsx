@@ -6,7 +6,7 @@ export default function Navbar() {
             <Link href={"/"}>
                 <strong className="text-primary">Blog</strong>
             </Link>
-            <Link className="btn" href={"/"}>
+            <Link className="btn" href={"/sign-in"}>
                 Sign In
             </Link>
         </div>
