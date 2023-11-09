@@ -6,7 +6,7 @@ export default function Dashboard() {
     return (
         <div>
             <h1>My Posts</h1>
-            {postsData && postsData.length > 20 ? (
+            {postsData && postsData.length > 0 ? (
                 postsData.map((post) => (
                     <Post
                         key={post.id}
