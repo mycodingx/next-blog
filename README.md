@@ -19,3 +19,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ```
 dotenv -e .env.local -- npx prisma db push
 ```
+
+```
+dotenv -e .env.local -- npx prisma studio
+```
