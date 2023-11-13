@@ -3,7 +3,7 @@ import Link from "next/link";
 import DeleteButton from "./DeleteButton";
 
 interface PostProps {
-    id: number;
+    id: string;
     author: string;
     date: string;
     thumbnail?: string;
